@@ -1,0 +1,16 @@
+{
+  "name": "plc-academy-s7400-workbench",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Offline S7-400 PLC learning workbench prototype",
+  "scripts": {
+    "build": "node -e \"const fs=require('fs'); if(!fs.existsSync('www/index.html')) process.exit(1); console.log('Web assets ready')\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}
